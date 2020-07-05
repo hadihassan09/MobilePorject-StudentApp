@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">StudentAttendenceApp</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="login">Login</string>
+    <string name="student_id">  Student ID</string>
+    <string name="password">  Password</string>
+    <string name="logo">LOGO</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="edit_info">Edit Profile</string>
+    <string name="take_attendance">Take Attendance</string>
+    <string name="view_courses">View My Courses</string>
+    <string name="address">Address</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="view_students">View Students</string>
+    <string name="generate_qr">Generate QR</string>
+    <string name="register_to_course">Register To Course</string>
+
+    <string name="course_id">  Course ID</string>
+    <string name="course_name">  Course Name</string>
+    <string name="course_key_time">  Course Key Timeout</string>
+    <string name="max_attendance">  Max Attendance</string>
+    <string name="edit_course">Edit Course</string>
+
+    <string name="teacher_name">  Teacher Name</string>
+    <string name="teacher_email">  Teacher Email</string>
+    <string name="teacher_password">  Teacher Password</string>
+    <string name="teacher_phone">  Teacher Phone</string>
+    <string name="teacher_address">  Teacher Address</string>
+    <string name="assign">Assign</string>
+</resources>

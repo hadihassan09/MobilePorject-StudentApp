@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mm"
+    android:fitsSystemWindows="true"
+    android:windowSoftInputMode="stateHidden"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/upperColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f79663" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="235dp"
+            android:layout_height="191dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/logoapp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:paddingBottom="30dp"
+            android:text="Welcome"
+            android:textColor="#f79663"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/idText"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custom_edit_text_bg"
+            android:defaultFocusHighlightEnabled="true"
+            android:drawableLeft="@drawable/ic_username"
+            android:focusable="true"
+            android:fontFamily="casual"
+            android:hint="@string/student_id"
+            android:inputType="none|text"
+            />
+
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/custom_edit_text_bg"
+            android:defaultFocusHighlightEnabled="false"
+            android:drawableLeft="@drawable/ic_password"
+            android:focusable="true"
+            android:fontFamily="casual"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/loginCard"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            app:cardBackgroundColor="#f79663"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/loginBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:text="@string/login"
+                    android:textColor="#1857bd"
+                    android:textColorLink="@color/colorPrimary"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text='Don"t Have An Account?'
+            android:textColor="#f79663"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textColor="#f79663"
+            android:textColorLink="#03A9F4"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/lowerColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#f79663"
+            android:gravity="center"
+            android:textColor="#f79663"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.978" />
+    </LinearLayout>
+
+
+</ScrollView>

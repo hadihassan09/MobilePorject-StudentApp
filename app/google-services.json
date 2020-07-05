@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "143304449537",
+    "firebase_url": "https://studentuniattendence-84e8f.firebaseio.com",
+    "project_id": "studentuniattendence-84e8f",
+    "storage_bucket": "studentuniattendence-84e8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143304449537:android:5da5c1bf7e0319f44fea00",
+        "android_client_info": {
+          "package_name": "com.example.studentsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143304449537-7bktp9b9ppkk43ao4npv8qsut5othhug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studentsapp",
+            "certificate_hash": "b013320dda1e000c30c2a66a947cb3ef849a10f9"
+          }
+        },
+        {
+          "client_id": "143304449537-1bl2ik1beip9sagg1hr807qs31u3sejt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtd05y1O9UcCuaqWo0zfxE3E16uhtwrJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143304449537-1bl2ik1beip9sagg1hr807qs31u3sejt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143304449537:android:a2ec5711b96f3a5f4fea00",
+        "android_client_info": {
+          "package_name": "com.example.studentuniattendence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143304449537-3ig22u9pu711q0ll0qp3th5i5p3tv5en.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studentuniattendence",
+            "certificate_hash": "b013320dda1e000c30c2a66a947cb3ef849a10f9"
+          }
+        },
+        {
+          "client_id": "143304449537-q8nejjviohrp3rvi67re6sii9s75t45a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studentuniattendence",
+            "certificate_hash": "b9d546daefee65566a1fa5e9af09cad68198dc0c"
+          }
+        },
+        {
+          "client_id": "143304449537-1bl2ik1beip9sagg1hr807qs31u3sejt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtd05y1O9UcCuaqWo0zfxE3E16uhtwrJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143304449537-1bl2ik1beip9sagg1hr807qs31u3sejt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143304449537:android:3e1b0e2781c78d954fea00",
+        "android_client_info": {
+          "package_name": "com.example.teachersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143304449537-7g40nlu0u76fern7at3m7hfu198v9kqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teachersapp",
+            "certificate_hash": "b013320dda1e000c30c2a66a947cb3ef849a10f9"
+          }
+        },
+        {
+          "client_id": "143304449537-1bl2ik1beip9sagg1hr807qs31u3sejt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtd05y1O9UcCuaqWo0zfxE3E16uhtwrJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143304449537-1bl2ik1beip9sagg1hr807qs31u3sejt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
